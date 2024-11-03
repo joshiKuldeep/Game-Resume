@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sticky Header Section -->
+    <header class="sticky-top bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">My Portfolio</h1>
+            <nav>
+                <a href="#about" class="text-white mx-2">About Me</a>
+                <a href="#projects" class="text-white mx-2">Projects</a>
+                <a href="Game Dev Resume Kuldeep.pdf" target="_blank" class="text-white mx-2">Resume</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="container my-5">
+        <h2 class="text-center mb-4">About Me</h2>
+        <p class="text-center">
+            Hello! I'm Kuldeep Joshi, a Senior Game Developer with over 7 years of experience creating immersive, groundbreaking gaming experiences and leading high-performing development teams. With a strong foundation in architecting complex systems and optimizing real-time gameplay, I bring both technical expertise and strategic vision to each project. Known for my ability to think systematically and execute efficiently, I excel in building robust systems that deliver seamless user experiences. I’m passionate about fostering a collaborative and creative team culture, empowering others to push the boundaries of gaming.
+    </p>
+    </section>
+
+    <!-- Main Content Section with Project Cards -->
+    <main id="projects" class="container my-5">
+        <h2 class="text-center mb-4">Showcase</h2>
+        
+        <!-- eduzo games -->
+        <div class="card mb-4 p-4 shadow-sm">
+            <!-- Card Header (Title) -->
+            <div class="card-header bg-primary text-white">
+                <h4 class="card-title mb-0">Eduzo Dashboard</h4>
+            </div>
+
+            <!-- Card Body (Description) -->
+            <div class="card-body">
+                <p class="card-text">
+                    The Eduzo Dashboard is an innovative platform designed to transform education by offering a more interactive, personalized learning experience. Tailored specifically for schools, the dashboard allows administrators to create classes, add students, and give them access to a variety of engaging educational games. These games, built on Motion Tracking, Computer Vision, Augmented Reality, Flash Card, and Artificial Intelligence technologies, provide both Teach Mode and Test Mode to foster understanding and evaluate performance.
+                </p>
+                <p class="card-text">
+                    One of the standout features of the platform is the generation of automated AI-powered reports. In addition to the traditional marksheets, these AI reports give a detailed analysis of each student's performance, providing insights into their learning patterns, strengths, and areas for improvement.
+                </p>
+                <p class="card-text">
+                    The dashboard utilizes motion tracking and AR to deliver immersive learning experiences, making education fun and engaging. After playing the games, students not only receive their scores but also benefit from the AI reports that guide their learning journey. These tools are designed with insights from researchers at Stanford University, helping children learn at their own pace in a stress-free environment that encourages making mistakes and learning from them.
+                </p>
+            </div>
+
+            <!-- Card Footer (Website Link) -->
+            <div class="card-footer text-center">
+                <a href="https://eduzo.com" class="btn btn-outline-primary" target="_blank">Visit Website</a>
+            </div>
+        </div>
+
+        </div>
+            <div class="card mb-4 p-3 d-flex flex-md-row flex-column align-items-center">
+            <div class="card-body ml-md-3 mt-3 mt-md-0">
+                <h5 class="card-title">Movement Gesture Motion Tracking Game</h5>
+                    <p class="card-text">
+                        <ul style="list-style-type: none; padding-left: 0px;">
+                            <li>
+                                <strong>Dynamic Learning through Motion Tracking:</strong>  
+                                The motion-tracking endless runner game on the Eduzo Dashboard makes learning physically engaging by detecting a player's movements to the right, left, and center.
+                            </li>
+
+                            <li>
+                                <strong>Customizable Educational Content:</strong>  
+                                <ul style="list-style-type: circle; padding-left: 20px;">
+                                    <li>Teachers and administrators can add custom questions tailored to specific learning goals.</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <strong>Gameplay Mechanics:</strong>  
+                                <ul style="list-style-type: circle; padding-left: 20px;">
+                                    <li>Players encounter both correct and incorrect answers while running through the game.</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <strong>Performance-Based Scoring:</strong>  
+                                <ul style="list-style-type: circle; padding-left: 20px;">
+                                    <li>The game tracks students's accuracy in answering questions throughout their gameplay.</li>
+                                    <li>At the end, students receive a detailed marksheet that integrates their educational performance with their physical activity.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </p>    
+            </div>
+            <div class="card-image flex-shrink-0">
+                <iframe 
+                    src="https://www.youtube.com/embed/vMVtri6OcNM"
+                    title="English Runner" 
+                    class="img-fluid rounded"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    style="width: 480px; height: 320px; border-radius: 8px;">
+                </iframe>        
+            </div>
+        </div>
+        <div class="card mb-4 p-3 d-flex flex-column align-items-center">
+            <div class="card-body text-center">
+                <h5 class="card-title">Catch the Fruits</h5>
+                <p class="card-text">
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li><strong>Goal:</strong> Improve reading and recognition skills while enhancing reflexes and coordination.</li>
+                        <li><strong>Reward System:</strong> Points are awarded for correct cuts, with bonuses for combos and achievements.</li>
+                        <li><strong>User Experience:</strong> Engaging visuals, sound effects, and feedback create a fun, educational experience.</li>
+                        <li><strong>Game Mechanics:</strong> Players swipe to "cut" fruits using motion-sensing technology, with fruits appearing at varying speeds.</li>
+                    </ul>             
+                </p>
+            </div>
+            
+            <div class="card-scroll-container d-flex overflow-auto" style="gap: 10px; max-width: 100%; padding: 10px;">
+                <!-- Image 1 -->
+                <img src="assets/1692649521663.png" alt="Image 1" class="scroll-image rounded" style="max-height: 400px; min-width: 320px; object-fit: cover;">
+                
+                <!-- Image 2 -->
+                <img src="assets/1692649521666.png" alt="Image 2" class="scroll-image rounded" style="max-height: 400px;  min-width: 320px; object-fit: cover;">
+                
+                <!-- Image 3 -->
+                <img src="assets/1692649521672.png" alt="Image 3" class="scroll-image rounded" style="max-height: 400px;  min-width: 320px; object-fit: cover;">
+            </div>
+        </div>
+        <div class="card mb-4 p-3 d-flex flex-column align-items-center">
+            <div class="card-body text-left"> <!-- Changed from text-center to text-left -->
+                <h5 class="card-title text-center">Hand Gesture Motion Tracking Game</h5> <!-- Kept title center aligned -->
+                <p class="card-text">
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>
+                            <strong>Immersive Learning Experience:</strong>  
+                            The hand-gesture motion-tracking game on the Eduzo Dashboard allows students to interact with educational content through hand movements. Players can raise their right, left, or center hand to select answers, effectively blending physical engagement with cognitive learning.
+                        </li>
+                        <li>
+                            <strong>Dynamic Gameplay Tracking:</strong>  
+                            As students progress, the game monitors their hand movements and responses.
+                        </li>
+                        <li>
+                            <strong>Comprehensive Evaluation:</strong>  
+                            Scores and a marksheet are generated based on student performance, allowing for a thorough assessment of both understanding and physical engagement.
+                        </li>
+                    </ul>
+                </p>            
+            </div>
+            
+            <div class="card-scroll-container d-flex overflow-auto" style="gap: 10px; max-width: 100%; padding: 10px;">
+                <!-- Image 1 -->
+                <img src="assets/m1.png" alt="Image 1" class="scroll-image rounded" style="max-height: 400px; min-width: 320px; object-fit: cover;">
+                
+                <!-- Image 2 -->
+                <img src="assets/m2.png" alt="Image 2" class="scroll-image rounded" style="max-height: 400px; min-width: 320px; object-fit: cover;">
+                
+                <!-- Image 3 -->
+                <img src="assets/m3.png" alt="Image 3" class="scroll-image rounded" style="max-height: 400px; min-width: 320px; object-fit: cover;">
+            </div>
+        </div>
+
+        <!-- caresoft -->
+        <div class="card mb-4 p-3 d-flex flex-md-row flex-column align-items-center">
+            <div class="card-body ml-md-3 mt-3 mt-md-0">
+                <h5 class="card-title">Zdrive Car Simulator App</h5>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li><strong>3D and AR Experience:</strong> An immersive app that combines 3D graphics with Augmented Reality for a lifelike simulation.</li>
+                        <li><strong>Color Selection:</strong> Personalize your car with a wide range of color options.</li>
+                        <li><strong>Tire Customization:</strong> Choose different tire types and sizes to enhance performance.</li>
+                        <li><strong>Design Features:</strong> Customize body kits, spoilers, and decals for a unique look.</li>
+                        <li><strong>Interactive Gameplay:</strong> Experience realistic driving mechanics and physics.</li>
+                        <li><strong>User-Friendly Interface:</strong> Enjoy intuitive controls for seamless design and simulation.</li>
+                    </ul>            
+            </div>
+            <div class="card-image flex-shrink-0">
+                <img src="assets/zdrive.gif" alt="Zdrive Car" class="img-fluid rounded" style="width: 480px; height: 320px">
+            </div>
+        </div>
+                <div class="card mb-4 p-3 d-flex flex-md-row flex-column align-items-center">
+            <div class="card-body ml-md-3 mt-3 mt-md-0">
+                <h5 class="card-title">Manitowoc Boom Length Selector App</h5>
+                        <ul style="list-style-type: none; padding-left: 0;">
+                            <li><strong>Smartphone Compatibility:</strong> Available for both iOS and Android devices for convenient access.</li>
+                            <li><strong>Lift Parameter Input:</strong> Quickly determine the best boom and jib length combinations based on specific lift parameters.</li>
+                            <li><strong>Easy-to-Use Interface:</strong> Utilizes an intuitive sliding scale to select building heights, boom radii, and other crane parameters.</li>
+                            <li><strong>Instant Setup Generation:</strong> Enter a few details to receive immediate crane setup recommendations for specific lifts.</li>
+                            <li><strong>Pre-Planning and On-Site Use:</strong> Ideal for crane operators and owners during pre-planning or on-site operations.</li>
+                            <li><strong>Expert Insights:</strong> Features input from industry professionals for optimized crane operations.</li>
+                        </ul>
+            </div>
+            <div class="card-image flex-shrink-0">
+                <img src="assets/Boom Selector.gif" alt="Boom Selector" class="img-fluid rounded" style="width: 480px; height: 320px">
+            </div>
+        <!-- Wormhole labs -->
+        </div>
+            <div class="card mb-4 p-3 d-flex flex-md-row flex-column align-items-center">
+            <div class="card-body ml-md-3 mt-3 mt-md-0">
+                <h5 class="card-title">Wormhole Labs App</h5>
+                <p class="card-text">
+                    Wormhole Labs™ has developed a planet-scalable technology engine that allows people and businesses to teleport and immerse themselves LIVE virtually anywhere in the world. Users can walk around, experience, interact, crowdsource, buy, and conduct commerce as if they are physically present. The integrated payment system makes financial transactions easy for users.
+                </p>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li><strong>Live Interaction:</strong> Walk around and engage with real-time environments as if you were physically present.</li>
+                    <li><strong>Crowd Sourcing Opportunities:</strong> Collaborate and interact with others in a virtual space for shared experiences.</li>
+                    <li><strong>Integrated Payment System:</strong> Conduct seamless financial transactions directly within the app for easy commerce.</li>
+                    <li><strong>Business Applications:</strong> Ideal for businesses to enhance customer engagement and sales through virtual interactions.</li>
+                </ul>
+            </div>
+            <div class="card-image flex-shrink-0">
+                <iframe 
+                    src="https://www.youtube.com/embed/FlAkrNvNCGk" 
+                    title="Wormhole App" 
+                    class="img-fluid rounded"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    style="width: 480px; height: 320px; border-radius: 8px;">
+                </iframe>        
+            </div>
+        </div>
+        <!-- Consultant -->
+        </div>
+            <div class="card mb-4 p-3 d-flex flex-md-row flex-column align-items-center">
+            <div class="card-body ml-md-3 mt-3 mt-md-0">
+                <h5 class="card-title">Tank and Jets</h5>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li><strong>2D Environment:</strong> Set in a vibrant 2D world featuring tanks and fighter jets as the primary vehicles.</li>
+                        <li><strong>Vehicle Control:</strong> Players can choose to control either a tank or a jet during gameplay.</li>
+                        <li><strong>Engaging Battles:</strong> Participate in thrilling battles against enemy vehicles for dominance.</li>
+                        <li><strong>Variety of Weapons:</strong> Utilize a range of weapons to defeat opponents and gain an advantage.</li>
+                        <li><strong>Power-Ups Available:</strong> Collect power-ups to enhance gameplay and improve performance.</li>
+                    </ul>
+            </div>
+            <div class="card-image flex-shrink-0">
+                <iframe 
+                    src="https://www.youtube.com/embed/edgt8wCk4Nc"
+                    title="Tank" 
+                    class="img-fluid rounded"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    style="width: 480px; height: 320px; border-radius: 8px;">
+                </iframe>        
+            </div>
+        </div>
+        <div class="card mb-4 p-3 d-flex flex-md-row flex-column align-items-center">
+            <div class="card-body ml-md-3 mt-3 mt-md-0">
+                <h5 class="card-title">Pirate Among Us</h5>
+                <p class="card-text">
+                    Pirate Among Us is a multiplayer online video game set in an underwater-themed environment. Players take on the roles of crewmates aboard a submarine, while one or more imposters try to sabotage the mission and eliminate the crewmates without being discovered.
+                </p>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li><strong>Multiplayer Experience:</strong> Engage with friends and players worldwide in thrilling gameplay.</li>
+                    <li><strong>Crewmate Roles:</strong> Work together as a team to complete missions and uncover the imposters.</li>
+                    <li><strong>Imposter Mechanics:</strong> Utilize stealth and cunning to sabotage the crew and achieve your objectives.</li>
+                    <li><strong>Strategy and Deception:</strong> Use deduction and strategy to identify imposters before it's too late.</li>
+                </ul>   
+            </div>
+            <div class="card-image flex-shrink-0">
+                <iframe 
+                    src="https://www.youtube.com/embed/5DkpkrraH5Y"
+                    title="Pirate Among Us" 
+                    class="img-fluid rounded"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    style="width: 480px; height: 320px; border-radius: 8px;">
+                </iframe>        
+            </div>
+        </div>
+        <!-- Veative labs -->
+        <div class="card mb-4 p-3 d-flex flex-md-row flex-column align-items-center">
+            <div class="card-body ml-md-3 mt-3 mt-md-0">
+                <h5 class="card-title">Virtual Hydrocarbon Oil Refinery Training Module</h5>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li><strong>Immersive Training Environment:</strong> Experience a realistic virtual oil refinery using HTC Vive technology.</li>
+                    <li><strong>Hands-On Learning:</strong> Engage with interactive simulations to understand refinery operations.</li>
+                    <li><strong>Safety Protocols Training:</strong> Learn essential safety measures in a controlled virtual setting.</li>
+                    <li><strong>Equipment Familiarization:</strong> Explore and operate various refinery equipment in a risk-free environment.</li>
+                    <li><strong>Real-Time Feedback:</strong> Receive instant feedback on performance to enhance learning outcomes.</li>
+                </ul>
+            </div>
+            <div class="card-image flex-shrink-0">
+                <iframe 
+                    src="https://www.youtube.com/embed/9d2Am41o9XQ"
+                    title="Training Simulation" 
+                    class="img-fluid rounded"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    style="width: 480px; height: 320px; border-radius: 8px;">
+                </iframe>        
+            </div>
+        </div>
+
+        <div class="card mb-4 p-3 d-flex flex-md-row flex-column align-items-center">
+            <div class="card-body ml-md-3 mt-3 mt-md-0">
+                <h5 class="card-title">VR Virtual Tours</h5>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li><strong>Immersive Learning Experience:</strong> Engage in educational content through immersive virtual reality tours.</li>
+                    <li><strong>Explore Iconic Landmarks:</strong> Discover the Eiffel Tower and the Statue of Liberty in stunning detail.</li>
+                    <li><strong>Virtual Headset Interaction:</strong> Experience tours using a virtual reality headset for a lifelike experience.</li>
+                    <li><strong>Educational Content:</strong> Learn historical facts and cultural significance while exploring each landmark.</li>
+                </ul>
+            </div>
+            <div class="card-image flex-shrink-0">
+                <iframe 
+                    src="https://www.youtube.com/embed/4c00llnZm1A" 
+                    title="Virtual Tours" 
+                    class="img-fluid rounded"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    style="width: 480px; height: 320px; border-radius: 8px;">
+                </iframe>        
+            </div>
+        </div>
+    </main>
+    <!-- "And Many More!" Section -->
+    <div class="text-center mt-5">
+        <h3>...And Many More!</h3>
+        <p>A range of projects spanning various genres, styles, and technologies.</p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Kuldeep Joshi</p>
+        <a href="Game Dev Resume Kuldeep.pdf" target="_blank" class="text-white">View Resume</a>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
